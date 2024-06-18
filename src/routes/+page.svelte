@@ -1,6 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import { goto } from "$app/navigation"
+    import { onMount } from "svelte"
 
-<button>I AM A <s>SURGEON</s> BUTTON</button>
-
-<input type="text" default="ligma" placeholder="ligma">
+	onMount(() => {
+        goto("/test")
+	})
+</script>
