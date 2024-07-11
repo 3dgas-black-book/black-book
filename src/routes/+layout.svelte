@@ -1,3 +1,7 @@
+<!--
+deploy: npm run build
+wrangler pages deploy .svelte-kit/cloudflare --branch=master
+-->
 <script>
 	import './styles.css';
 </script>
